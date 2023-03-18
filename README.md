@@ -5,6 +5,7 @@
 * To prove that Alogrand tech is ready for permissionless, transparent, community driven relay network 
 * To learn and promote Algorand tech while designing and running a quality community service
 * To increase awareness on the role of relays and unbeatable security of the network 
+* To lower the cost of running a relay to 50-300USD/mo range (depending on location)
 
 [+chat-gpt hallucinations]
 * To foster a reliable and efficient relay network that benefits the Algorand ecosystem and its users.
@@ -22,3 +23,12 @@
 ## Project
 
 This project will hold the status, design proposals and a board for community driven Algorand relay network initiative. 
+
+## Pledges
+
+* .....    : decentralized relay network monitoring
+* .....    : primary DNS boostrap management
+* .....    : secondary DNS boostrap management
+* .....    : tertiary DNS boostrap management
+* Algonode : 3 archival servers (new kind of network element) - 1xUS, 1xEU, 1xSG
+* Urtho    : $$$ for running a relay for 3 community members 
