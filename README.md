@@ -5,7 +5,7 @@
 * To prove that Alogrand tech is ready for permissionless, transparent, community driven relay network 
 * To learn and promote Algorand tech while designing and running a quality community service
 * To increase awareness on the role of relays and unbeatable security of the network 
-* To lower the cost of running a relay to 50-300USD/mo range (depending on location)
+* To lower the cost of running a relay to 150-300USD/mo range (depending on location)
 
 [+chat-gpt hallucinations]
 * To foster a reliable and efficient relay network that benefits the Algorand ecosystem and its users.
@@ -32,3 +32,22 @@ This project will hold the status, design proposals and a board for community dr
 * .....    : tertiary DNS boostrap management
 * Algonode : 3 archival servers (new kind of network element) - 1xUS, 1xEU, 1xSG
 * Urtho    : $$$ for running a relay for 3 community members 
+
+## Light relays 
+
+### Hardware requirements (WIP)
+
+CPU: ~80000 Bogomips total across vCores (only dedicated VM/BM, no shared/burst VMs)
+RAM: 16GB RAM
+HDD: 80GB SSD/NVMe
+NET: 2.5Gbps (upstream), 10TB egress monthly (12TB IN+OUT)
+ 
+### Example node setups and pricing
+
+|Cloud|Type|Model|Monthly|
+|---|----|----|----| 
+|Vultr|BareMetal|Intel E-2286G|$185|
+|Hetzner|VDS|CCX42|$170|
+|SpeedyPage|VDS|Custom 12vCPU Performance+ |$100|
+|Hetzner|BareMetal|AX41-NVME + 10Gbps upgrade |$95 (including $50 for 10G)|
+
