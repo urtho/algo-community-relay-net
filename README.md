@@ -37,10 +37,10 @@ This project will hold the status, design proposals and a board for community dr
 
 ### Hardware requirements (WIP)
 
-CPU: ~80000 Bogomips total across vCores (only dedicated VM/BM, no shared/burst VMs)
-RAM: 16GB RAM
-HDD: 80GB SSD/NVMe
-NET: 2.5Gbps (upstream), 10TB egress monthly (12TB IN+OUT)
+* CPU: ~80000 Bogomips total across vCores (only dedicated VM/BM, no shared/burst VMs)
+* RAM: 16GB RAM
+* HDD: 80GB SSD/NVMe
+* NET: 2.5Gbps (upstream), 10TB egress monthly (12TB IN+OUT)
  
 ### Example node setups and pricing
 
